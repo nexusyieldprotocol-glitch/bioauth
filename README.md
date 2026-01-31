@@ -26,6 +26,8 @@ BioAuth is an enterprise-grade biometric authentication platform that combines:
 - Multi-modal fusion for highest security
 
 ✅ **Security**
+- **Hybrid Post-Quantum Cryptography** (Kyber-1024 + AES-256) for AMCIS 6.0 compliance
+- **AI Guardrail Integrity Protocol** (AGIP) for secure LLM-driven identity analysis
 - End-to-end encrypted biometric storage
 - Hardware security module integration
 - Secure enclave isolation
@@ -294,10 +296,11 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 
 - [ ] Mobile SDK (iOS/Android)
 - [ ] Decentralized credential verification
-- [ ] Post-quantum cryptography migration
+- [x] Post-quantum cryptography migration (Kyber-1024 Hybrid)
 - [ ] Enhanced liveness detection
 - [ ] Integration with blockchain-based identity
 - [ ] Advanced analytics & reporting
+- [ ] AMCIS 6.0 AGIP Implementation
 
 ## Acknowledgments
 
